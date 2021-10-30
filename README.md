@@ -7,7 +7,7 @@
 4. (Customize your widget the way you like it)
 5. Go back into your oridinal Mod and In side your Buildables Add TFISDescription Component 
 6. In the TFISDescription Component details add you TFISWidget to the MoreInfo Array
-8 Done!
+7. Done!
 
 # FAQ
 

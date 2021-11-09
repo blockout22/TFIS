@@ -1,13 +1,13 @@
 # TFIS
 
 # How To use
-1. Create a new plugin and Call it "TFIS_<You_ModName>"
+1. Create a new plugin and Call it "TFIS_<Your_ModName>"
 2. Restart your engine
 3. In your "TFIS_<You_ModName>", Create a User Widget and change it's parent class to "TFISWidget"
 4. (Customize your widget the way you like it)
-5. Go back into your oridinal Mod and In side your Buildables Add TFISDescription Component 
+5. Go back into your original Mod and inside your Buildables Add TFISDescription Component 
 6. In the TFISDescription Component details add your TFISWidget to the MoreInfo Array
-7. See Below for an example on how your TFIS_<You_ModName>.uplugin file should look
+7. update your TFIS_<Your_ModName>.unplugin file, see below on how your TFIS_<Your_ModName>.uplugin file should look
 8. Done!
 
 # TFIS_<You_ModName>.Uplugin Example
@@ -39,7 +39,13 @@
 		{
 			"Enabled": true,
 			"Name": "TFIS",
-			"SemVersion": "^1.0.1",
+			"SemVersion": "^1.0.0",
+			"bIsOptional": false
+		},
+		{
+			"Enabled": true,
+			"Name": "StorageTeleporter", 
+			"SemVersion": "^1.0.0",
 			"bIsOptional": false
 		}
 	]
